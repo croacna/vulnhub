@@ -1,6 +1,10 @@
-# Pen-testing phases
-1. Pre-engagement
-2. Reconnaissance
-3. Discovery
-4. Vulnerability analysis
-5. Explotation and Post Explotation
+# Pre-engagement / Reconnaissance
+
+Vikings: 1
+
+A CTF machine with full of challenges
+Do what is visible, no rabbit holes
+Learn new things, and make sure that you enum first then hack.
+Discord- luckythandel#6053 {for any-hint}
+
+
