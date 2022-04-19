@@ -10,4 +10,7 @@
 5. Explotation and Post Explotation
 
 
-@@include[vikings_1]{vikings_1/walkthrough.md}
+
+# List of Machines
+
+[vikings_1](vikings_1/walkthrough.md)
