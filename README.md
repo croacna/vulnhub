@@ -10,6 +10,10 @@
 5. Explotation and Post Explotation
 
 
+# pre-steps
+Using Virtual box - configured Network adapter to Host-only Adapter 
+
+
 
 # List of Machines
 
