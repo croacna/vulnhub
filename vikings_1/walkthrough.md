@@ -27,9 +27,5 @@ PORT   STATE SERVICE
 80/tcp open  http
 ```
 
+![web server](01.png)
 
-![alt text](filename)
-
-```bash
-ls -l
-```
