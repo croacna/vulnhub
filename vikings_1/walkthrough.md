@@ -76,4 +76,10 @@ using password --> Worked!
 
 ![puzzlee](06.png)
 
+using https://cyberchef.org to cleanup the output
+![cyberchef](07.png)
+
+su ragnar
+
+
 

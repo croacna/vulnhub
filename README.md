@@ -14,7 +14,16 @@
 Using Virtual box - configured Network adapter to Host-only Adapter 
 
 
+# Steganography
+https://0xrick.github.io/lists/stego/
+
+# Data processing
+https://cyberchef.org
+
+
+# Priviledge Escalation
+https://0xsp.com/offensive/privilege-escalation-cheatsheet/
+
 
 # List of Machines
-
 [vikings_1](vikings_1/walkthrough.md)
