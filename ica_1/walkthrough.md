@@ -111,11 +111,14 @@ MySQL [staff]> select name, role, password from user as u join login as l where 
 
  ```
 
+```bash
 Lucas - c3VSSkFkR3dMcDhkeTNyRg== -> suRJAdGwLp8dy3rF
 Dexter - N1p3VjRxdGc0MmNtVVhHWA== -> 7ZwV4qtg42cmUXGX (ssh login)
 Smith  - WDdNUWtQM1cyOWZld0hkQw== -> X7MQkP3W29fewHdC
 Travis - REpjZVZ5OThXMjhZN3dMZw== -> DJceVy98W28Y7wLg
 Meyer - Y3FObkJXQ0J5UzJEdUpTeQ== -> cqNnBWCByS2DuJSy
+```
+
 
 ```bash
 dexter@debian:~$ cat note.txt 
@@ -176,6 +179,7 @@ export PATH=.:$PATH
 /opt/get_access 
 ```
 
+```bash
 root@debian:/root# cat root.txt 
 ICA{Next_Generation_Self_Renewable_Genetics}
-
+```
