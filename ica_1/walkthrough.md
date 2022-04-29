@@ -8,7 +8,9 @@ According to information from our intelligence network, ICA is working on a secr
 
 # My rating
 Fun: 5/5
+
 Interresting: 4/5 
+
 Difficult: 3/5
 
 # Enumeration 
@@ -61,8 +63,6 @@ all:
         quote_identifier: true  
   
 ```
-
-![database password](03.png)
 
 
  mysql -h 192.168.56.12 -u qdpmadmin -p 
