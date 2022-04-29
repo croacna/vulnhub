@@ -24,6 +24,9 @@ https://cyberchef.org
 # Priviledge Escalation
 https://0xsp.com/offensive/privilege-escalation-cheatsheet/
 
+# Post explotation
+https://github.com/n1nj4sec/pupy
 
 # List of Machines
 [vikings_1](vikings_1/walkthrough.md)
+[ica_1](ica_1/walkthrough.md)

